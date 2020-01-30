@@ -101,8 +101,8 @@
 			children = (
 				5255DA5923A4516700DAEBD6 /* AppDelegate.swift */,
 				5255DA5B23A4516700DAEBD6 /* SceneDelegate.swift */,
-				5255DA5D23A4516700DAEBD6 /* ViewController.swift */,
-				5255DA5F23A4516700DAEBD6 /* Main.storyboard */,
+				525953F623A615F400A3FF77 /* Controller */,
+				525953F723A6177C00A3FF77 /* View */,
 				5255DA6223A4517400DAEBD6 /* Assets.xcassets */,
 				5255DA6423A4517400DAEBD6 /* LaunchScreen.storyboard */,
 				5255DA6723A4517400DAEBD6 /* Info.plist */,
@@ -126,6 +126,22 @@
 				5255DA7D23A4517400DAEBD6 /* Info.plist */,
 			);
 			path = calculator_projectUITests;
+			sourceTree = "<group>";
+		};
+		525953F623A615F400A3FF77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5255DA5D23A4516700DAEBD6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		525953F723A6177C00A3FF77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5255DA5F23A4516700DAEBD6 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
